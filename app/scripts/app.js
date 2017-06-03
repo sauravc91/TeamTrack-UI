@@ -45,6 +45,11 @@ angular
             url: '/profile',
             parent: 'dashboard',
             templateUrl: 'views/dashboard/profile.html'
+          })
+          .state('register', {
+            url: '/register',
+            parent: 'base',
+            templateUrl: 'views/register.html'
           });
 
   });
